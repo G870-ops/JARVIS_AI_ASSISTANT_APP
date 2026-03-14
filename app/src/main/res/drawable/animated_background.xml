@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#000814"
+                android:centerColor="#001F3F"
+                android:endColor="#000814"
+                android:angle="270"/>
+        </shape>
+    </item>
+
+    <!-- Floating animated particles -->
+    <item android:drawable="@drawable/particles_animation"/>
+</layer-list>

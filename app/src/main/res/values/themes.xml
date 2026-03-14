@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.GOUTAMJARVIS" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light/dark theme colors here -->
+        <!-- Primary / accent colors can be defined if needed -->
+        <!-- Example: -->
+        <!-- <item name="colorPrimary">@color/purple_500</item> -->
+        <!-- <item name="colorOnPrimary">@color/white</item> -->
+    </style>
+
+    <!-- Dark Futuristic Jarvis Theme -->
+    <style name="Theme.GOUTAMJARVIS" parent="Base.Theme.GOUTAMJARVIS">
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">#000814</item>
+        <!-- Optional window background -->
+        <item name="android:windowBackground">#000000</item>
+    </style>
+
+</resources>
